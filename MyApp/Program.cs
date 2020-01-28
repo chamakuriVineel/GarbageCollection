@@ -7,9 +7,11 @@ using Logger;
 using System.IO;
 
 namespace MyApp
-{
+{ 
+    #region Classes
     class Program
     {
+        #region methods
         static void Main(string[] args)
         {
             String filePath = "C:\\Users\\Vineel_Chamakuri\\Documents\\DataBaseLog.txt";
@@ -37,8 +39,8 @@ namespace MyApp
                 Console.WriteLine("ERROR Occured\n" + e.ToString());
             }
             Console.ReadLine();
-
-
         }
+        #endregion methods
     }
+    #endregion Classes
 }
